@@ -14,6 +14,13 @@
 		EE3930F324DAA029001B49D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3930F224DAA029001B49D6 /* Assets.xcassets */; };
 		EE3930F624DAA029001B49D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3930F524DAA029001B49D6 /* Preview Assets.xcassets */; };
 		EE3930F924DAA029001B49D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3930F724DAA029001B49D6 /* LaunchScreen.storyboard */; };
+		EE39310124DAA0A7001B49D6 /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39310024DAA0A7001B49D6 /* PersonListView.swift */; };
+		EE39310324DAA0C1001B49D6 /* DetailPersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39310224DAA0C1001B49D6 /* DetailPersonList.swift */; };
+		EE39310724DAA44E001B49D6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39310624DAA44E001B49D6 /* Person.swift */; };
+		EE39310924DAA462001B49D6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39310824DAA462001B49D6 /* DataManager.swift */; };
+		EE39310B24DAA9C6001B49D6 /* DetailPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39310A24DAA9C6001B49D6 /* DetailPerson.swift */; };
+		EE39310D24DAB1FB001B49D6 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39310C24DAB1FB001B49D6 /* PersonRow.swift */; };
+		EE39310F24DAB38E001B49D6 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39310E24DAB38E001B49D6 /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		EE3930F524DAA029001B49D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE3930F824DAA029001B49D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE3930FA24DAA029001B49D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE39310024DAA0A7001B49D6 /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		EE39310224DAA0C1001B49D6 /* DetailPersonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonList.swift; sourceTree = "<group>"; };
+		EE39310624DAA44E001B49D6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EE39310824DAA462001B49D6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EE39310A24DAA9C6001B49D6 /* DetailPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPerson.swift; sourceTree = "<group>"; };
+		EE39310C24DAB1FB001B49D6 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		EE39310E24DAB38E001B49D6 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,13 @@
 				EE3930E924DAA024001B49D6 /* AppDelegate.swift */,
 				EE3930EB24DAA024001B49D6 /* SceneDelegate.swift */,
 				EE3930F024DAA024001B49D6 /* ContentView.swift */,
+				EE39310024DAA0A7001B49D6 /* PersonListView.swift */,
+				EE39310224DAA0C1001B49D6 /* DetailPersonList.swift */,
+				EE39310C24DAB1FB001B49D6 /* PersonRow.swift */,
+				EE39310A24DAA9C6001B49D6 /* DetailPerson.swift */,
+				EE39310E24DAB38E001B49D6 /* Enum.swift */,
+				EE39310624DAA44E001B49D6 /* Person.swift */,
+				EE39310824DAA462001B49D6 /* DataManager.swift */,
 				EE3930F224DAA029001B49D6 /* Assets.xcassets */,
 				EE3930F724DAA029001B49D6 /* LaunchScreen.storyboard */,
 				EE3930FA24DAA029001B49D6 /* Info.plist */,
@@ -150,9 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3930EA24DAA024001B49D6 /* AppDelegate.swift in Sources */,
+				EE39310924DAA462001B49D6 /* DataManager.swift in Sources */,
 				EE3930EF24DAA024001B49D6 /* PhoneApp_SwiftUI.xcdatamodeld in Sources */,
 				EE3930F124DAA024001B49D6 /* ContentView.swift in Sources */,
+				EE39310F24DAB38E001B49D6 /* Enum.swift in Sources */,
+				EE39310324DAA0C1001B49D6 /* DetailPersonList.swift in Sources */,
+				EE39310B24DAA9C6001B49D6 /* DetailPerson.swift in Sources */,
+				EE39310724DAA44E001B49D6 /* Person.swift in Sources */,
 				EE3930EC24DAA024001B49D6 /* SceneDelegate.swift in Sources */,
+				EE39310124DAA0A7001B49D6 /* PersonListView.swift in Sources */,
+				EE39310D24DAB1FB001B49D6 /* PersonRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
